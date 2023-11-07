@@ -19,8 +19,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    display: flex;
-    align-items: center;
 }
 
 .logo  {
@@ -84,6 +82,10 @@
     box-shadow: 10px 5px 5px goldenrod;
     height: 600px;
     width: 300px;
-    display: flex;
-    background-image: url(assets\tumblr_ptfespIoIg1u1ycqw_1280.jpg);
+}
+
+.synopsis-plot {
+    border: 1px solid black;
+    width: auto;
+    height: auto;
 }
