@@ -78,14 +78,37 @@
 }
 
 
-#id1{
-    box-shadow: 10px 5px 5px goldenrod;
-    height: 600px;
-    width: 300px;
-}
 
 .synopsis-plot {
-    border: 1px solid black;
-    width: auto;
+    width: 600px;
     height: auto;
+    box-shadow: 10px 5px 5px gray;
+    margin-left: 5%;
+}
+
+.synopsis-plot p{
+    padding: 10px 50px 20px;
+    padding-bottom: 10px;
+}
+
+.background-synopsis {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.background-synopsis img {
+    display: flex;
+    width: 1200px;
+    height: 1350px;
+    padding-left: 25px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+#id1{
+    box-shadow: 10px 5px 5px gray;
+    height: 600px;
+    width: 300px;
+    align-items: flex-end;
 }
